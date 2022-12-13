@@ -63,14 +63,15 @@ body { display: flex; flex-direction: column; }
 
 /*** BASIC LAYOUT: HEADER ***/
 
-#header { background: #2EAE9B; }
+#header { background: rgb(235, 235, 235); }
+#main { background: #fff; }
 
 #title, #logo {
     float: left;
-    padding: 3em 3em 3em 0;
+    padding: 1em 3em 1em 0;
 }
 
-#title * { margin: 0; color: #fff; }
+#title * { margin: 0; color: #333; }
 #title p { font-style: italic; }
 
 #logo { height: 10.8em; }
@@ -96,8 +97,8 @@ body { display: flex; flex-direction: column; }
     font-weight: bold;
 }
 
-#nav a, #nav-toggle { color: #afe1da; }
-#nav .active a, #nav a:hover, #nav-toggle:hover { color: #fff; }
+#nav a, #nav-toggle { color: #333; }
+#nav .active a, #nav a:hover, #nav-toggle:hover { color: #f00; }
 
 #nav-toggle { display: none; }
 
@@ -195,7 +196,7 @@ p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
 }
 
 a {
-    color: #2EAE9B;
+    color: #f00;
     text-decoration: none;
     -webkit-transition: color .2s ease-in;
             transition: color .2s ease-in;
